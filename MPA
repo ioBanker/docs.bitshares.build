@@ -1,11 +1,15 @@
 # Market Pegged Asset
 
-## Input
+## MPA Inputs
 - Feed Price: The collateral price in the borrowed asset.
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
-- Maintenance Collateral Ratio (MCR): The minimum required CR.
+- Maintenance Collateral Ratio (MCR): CR for margin calls.
+- Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
 - Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
 - Call Price (CP): = DEBT / COLLATERAL * MCR The price at which short/borrowed positions are getting margin called.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty. Real penalty is dependent on market liquidity.
-- Short Squeeze Protection (SSP): = Call Price / MSSR Min. price for collateral sell. Real price is dependent on market liquidity.
-- Force Settlement Offset (FSO): Fee for HONEST.Asset settlement, from the HONEST.Asset holder
+- Force Settlement Offset (FSO): Fee for MPA settlement, from the MPA holder.
+
+
+- Market Fee: 
+- Force Settlement Fee (FSF): 
