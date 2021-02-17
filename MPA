@@ -15,7 +15,7 @@
 - Max. settleable volume each maintance period
 
 ## Borrowing
-The BitShares network is capable of minting any MPA, with any collateral, without any interest rate, to participants providing enough collateral:
+The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
 
 ## Margin Call
 The margin call sells collateral, to buy shares of the borrowed MPA back to reduce the amount of debt. 
