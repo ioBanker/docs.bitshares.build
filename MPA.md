@@ -18,7 +18,7 @@
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
 
 ## Margin Call
-The margin call sells collateral, to buy shares of the borrowed MPA back to reduce the amount of debt. 
+The margin call sells collateral, to buy shares of the borrowed MPA back, to reduce the amount of debt. 
 The margin call will occur, when the CR is lower than the MCR and a bid is equal or greater than the SSP.
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
 
