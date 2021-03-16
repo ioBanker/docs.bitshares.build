@@ -1,5 +1,5 @@
 # Liquidity Pools
-Liquidity Pools are part of the bitshares-core 5.0, which are providing a fully automated, autonomous and trustless onchain liquidity.
+Liquidity Pools are part of the bitshares-core 5.0, which are providing a fully automated, autonomous onchain liquidity.
 
 ## Functions
  - liquidity_pool_create_operation
