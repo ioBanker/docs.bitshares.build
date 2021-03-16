@@ -8,11 +8,14 @@
 - Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
 - Call Price (CP): = DEBT / COLLATERAL * MCR The price at which short/borrowed positions are getting margin called.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty. Real penalty is dependent on market liquidity.
-- Force Settlement Offset (FSO): Fee for MPA settlement, from the MPA holder.
+
+- Force Settlement Offset (FSO): Fee for MPA settlement for the collateral owner
+- Force Settlement Fee (FSF): Fee for MPA settlement for the asset owner
+- Max. settleable volume each maintance period
 
 - Market Fee: Orderbook Exchange Fee
-- Force Settlement Fee (FSF): Fee 
-- Max. settleable volume each maintance period
+- Taker Fee: Percentage of the market fee paid by the taker
+
 
 ## Borrowing
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
