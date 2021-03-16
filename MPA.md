@@ -9,9 +9,11 @@
 - Call Price (CP): = DEBT / COLLATERAL * MCR The price at which short/borrowed positions are getting margin called.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty. Real penalty is dependent on market liquidity.
 
+
 - Force Settlement Offset (FSO): Fee for MPA settlement for the collateral owner
 - Force Settlement Fee (FSF): Fee for MPA settlement for the asset owner
 - Max. settleable volume each maintance period
+
 
 - Market Fee: Orderbook Exchange Fee
 - Taker Fee: Percentage of the market fee paid by the taker
