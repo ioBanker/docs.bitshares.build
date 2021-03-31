@@ -9,7 +9,7 @@ The exchange rate is defined by:
 - exchange fees, paid by the taker and contributed to the pool token holders
 
 ### Deposit
-Both assets are curently needed in equal amounts at the current pool price. 
+Both assets are needed in equal amounts at the current pool price. 
 Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used to stake long, neutral or short positions.   
 
 #### Example: 1.19.66 - HONEST.BTCBTSMM
