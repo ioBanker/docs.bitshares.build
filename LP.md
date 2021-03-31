@@ -20,6 +20,10 @@ Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used 
 ### Witdraw
 Withdrawing funds from the pool burns the pool token and reduces the pool token supply. Withdraw fees are shared to the remaining pool token holders.
 
+## Interfaces
+- https://dex.iobanker.com/poolmart/liquidity-pools
+- https://blocksights.info/#/pools
+
 
 ### Functions
  - liquidity_pool_create_operation
