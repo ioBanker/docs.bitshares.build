@@ -26,6 +26,9 @@ Withdrawing funds from the pool burns the pool token and reduces the pool token 
 - https://blocksights.info/#/pools
 - https://github.com/bitshares/PoolTool
 
+## Sources:
+- https://news.iobanker.com/2021/04/02/bitshares-blockchain-liquidity-pools-defi-god-mode-is-now-enabled-at-iobanker-dex/
+
 ## Index
 
 ### Functions
@@ -43,6 +46,3 @@ Withdrawing funds from the pool burns the pool token and reduces the pool token 
  - share_asset
  - taker_fee_percent
  - virtual_value
-
-## Sources:
-https://news.iobanker.com/2021/04/02/bitshares-blockchain-liquidity-pools-defi-god-mode-is-now-enabled-at-iobanker-dex/
