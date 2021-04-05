@@ -6,7 +6,8 @@ Liquidity Pools are part of the bitshares-core 5.0, which are providing a fully 
 ### Exchange
 The exchange rate is defined by: 
 - constant product model: `k = amount_x * amount_y` 
-- exchange fees, paid by the taker and contributed to the pool token holders
+- pool taker fees, contributed to the pool token holders
+- asset fees, contributed to the asset owner
 
 ### Deposit
 Both assets are needed in equal amounts at the current pool price. 
