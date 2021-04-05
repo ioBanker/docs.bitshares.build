@@ -15,7 +15,7 @@
 - Max. settleable volume each maintance period
 
 
-- Market Fee: Orderbook Exchange Fee
+- Market Fee: Asset Exchange Fee
 - Taker Fee: Percentage of the market fee paid by the taker
 
 
