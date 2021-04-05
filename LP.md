@@ -25,6 +25,8 @@ Withdrawing funds from the pool burns the pool token and reduces the pool token 
 - https://blocksights.info/#/pools
 - https://github.com/bitshares/PoolTool
 
+## Overview
+
 ### Functions
  - liquidity_pool_create_operation
  - liquidity_pool_delete_operation
