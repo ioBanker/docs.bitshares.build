@@ -18,7 +18,7 @@ Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used 
 - **HONEST.BTC\/BTS Neutral:** Borrow the 50% HONEST.BTC and add an extra 50% BTS.
 - **HONEST.BTC Short - BTS Long:** Use all BTS for borrowing. Sell 50% of your HONEST.BTC for the BTS part.
 
-### Witdraw
+### Withdraw
 Withdrawing funds from the pool burns the pool token and reduces the pool token supply. Withdraw fees are shared to the remaining pool token holders.
 
 ## Interfaces
