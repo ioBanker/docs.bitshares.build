@@ -12,7 +12,7 @@
 
 - Force Settlement Offset (FSO): Fee for MPA settlement for the collateral owner
 - Force Settlement Fee (FSF): Fee for MPA settlement for the asset owner
-- Force Settlement Daly: Time after requested settlement happens
+- Force Settlement Daly: Time after requested settlement is processed
 - Max. settleable volume each maintance period
 
 
