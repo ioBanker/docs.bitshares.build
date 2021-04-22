@@ -10,8 +10,8 @@
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty. Real penalty is dependent on market liquidity.
 
 
-- Force Settlement Offset (FSO): Fee for MPA settlement for the collateral owner
-- Force Settlement Fee (FSF): Fee for MPA settlement for the asset owner
+- Force Settlement Offset (FSO): Fee for MPA settlement to the collateral owner
+- Force Settlement Fee (FSF): Fee for MPA settlement to the asset owner
 - Force Settlement Daly: Time after requested settlement is processed
 - Max. settleable volume each maintance period
 
