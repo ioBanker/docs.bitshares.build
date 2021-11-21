@@ -31,7 +31,7 @@ A borrow/short position can be closed by hold the same amount of that particular
 ## Manual Collateral Settlement
 When the asset owner, allows settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
 
-## Automated Collateral Settlement
+## Automated Collateral Settlements
 
 ### Margin Call
 The margin call sells collateral, to buy shares of the borrowed MPA back, to reduce the amount of debt. 
@@ -41,7 +41,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 #### MSSR
 - Higher MSSR allows faster liquidation and higher penality. Real liquidation penalty is dependend on market liquidity. 
 - An MPA premium reduces the effective MSSR for margin calls.
-- Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Market Issued Settlements. 
+- Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Automated Market Settlements. 
 
 ### Collateral Settlement Options
 When the *effective CR* (MCR-MSSR) is lower than 1, the second market settlement starts.
