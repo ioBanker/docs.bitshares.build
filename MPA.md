@@ -32,7 +32,7 @@ A borrow/short position can be closed by hold the same amount of that particular
 
 ### Margin Call
 The margin call sells collateral, to buy shares of the borrowed MPA back, to reduce the amount of debt. 
-The margin call will occur, when the CR is lower than the MCR and a bid is equal or greater than the SSP.
+The margin call will occur, when the CR is lower than the MCR and a bid is equal or greater than the margin call price.
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
 
 #### MSSR
