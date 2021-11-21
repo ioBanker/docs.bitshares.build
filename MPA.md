@@ -34,7 +34,7 @@ The margin call will occur, when the CR is lower than the MCR and a bid is equal
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
 
 #### MSSR
-- Higher MSSR allows faster liquidation and higher penality. Real liquidation penalty is dependend on markets liquidity. 
+- Higher MSSR allows faster liquidation and higher penality. Real liquidation penalty is dependend on market liquidity. 
 - An MPA premium reduces the effective MSSR for margin calls.
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Market Issued Settlements. 
 
