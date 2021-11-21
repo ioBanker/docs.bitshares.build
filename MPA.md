@@ -8,6 +8,7 @@
 - Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
 - Call Price (CP): = DEBT / COLLATERAL * MCR The price at which short/borrowed positions are getting margin called.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty. Real penalty is dependent on market liquidity.
+- Market Response Options
 
 
 - Force Settlement Offset (FSO): Fee for MPA settlement to the collateral owner
