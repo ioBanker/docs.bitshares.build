@@ -18,7 +18,7 @@
 
 - Market Fee: Asset Exchange Fee, paid by the asset buyer
 - Taker Fee: Percentage of the market fee, paid by the taker
-- Market Response Options: Handling CR under 1
+- Market Settlement Options: Handling CR under 1
 - Disable Collateral Bidding
 
 ## Borrowing & Covering
@@ -38,7 +38,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 - An MPA premium reduces the effective MSSR for margin calls.
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Market Issued Settlements. 
 
-### Market Response Options
+### Market Settlement Options
 When the *effective CR* (MCR-MSSR) is lower than 1, the second market settlement starts.
 
 #### Global Settlment (Default)
