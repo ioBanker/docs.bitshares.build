@@ -20,19 +20,26 @@
 - Taker Fee: Percentage of the market fee paid by the taker
 
 
-## Borrowing
+## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
 
-## Margin Call
+A borrow/short position can be closed by hold the same amount of that particular MPA. When the particular debt is payed back to the network, the corresponding supply is reduced and the collateral is released.
+
+## Market Issued Collateral Settlements
+
+### Margin Call
 The margin call sells collateral, to buy shares of the borrowed MPA back, to reduce the amount of debt. 
 The margin call will occur, when the CR is lower than the MCR and a bid is equal or greater than the SSP.
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
 
-### MSSR
-Higher MSSR allows faster liquidation and higher penality on less liquid markets. Market MPA discounts does reduce the effective MSSR.
+#### MSSR
+- Higher MSSR allows faster liquidation and higher penality on less liquid markets. 
+- Higher MSSR reduces CR for market Settlement
+- Market MPA discount does reduce the effective MSSR.
 
-## Settlement
+### Market Response Options
+
+## User Issued Settlement
 When the asset owner, allows a settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
 
-## Covering
-A borrow/short position can be closed by hold the same amount of that particular MPA. When the particular debt is payed back to the network, the corresponding supply is reduced and the collateral is released.
+
