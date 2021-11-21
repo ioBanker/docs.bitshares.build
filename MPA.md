@@ -5,7 +5,7 @@
 - Min. amount of Feed Producer
 - Feed Price: The collateral price in the borrowed asset.
 - Feed Lifetime
-- Core exchange rate (CER): Price to exchange MPA from BTS asset pool
+- Core exchange rate (CER): Price to exchange MPA from asset BTS pool
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
