@@ -5,7 +5,7 @@
 - Min. amount of Feed Producer
 - Feed Price: The collateral price in the borrowed asset.
 - Feed Lifetime
-- Core exchange rate (CER): Price to exchange MPA for core token (BTS)
+- Core exchange rate (CER): Price to exchange MPA from BTS asset pool
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
@@ -43,13 +43,13 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 - An MPA premium reduces the effective MSSR for margin calls.
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Market Issued Settlements. 
 
-### Collateral Settlement Protection Options
+### Collateral Settlement Options
 When the *effective CR* (MCR-MSSR) is lower than 1, the second market settlement starts.
 
 #### Global Settlment (Default)
 All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions when the fund is not empty.
 
-#### No Global Settlement (Disable Global Settlement Protection)
+#### No Settlement (Disable Global Settlement)
 No debt position is closed, and the derived settlement price is dynamically capped at the collateral ratio of the debt position with the least collateral ratio so that all debt positions are able to pay off their debt when being margin called or force-settled. Able to adjust existing debt positions or create new debt positions.
 
 #### Settlement To Fund
