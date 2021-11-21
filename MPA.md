@@ -20,7 +20,7 @@
 
 - Market Fee: Asset Exchange Fee, paid by the asset buyer
 - Taker Fee: Percentage of the market fee, paid by the taker
-- Market Settlement Options: Handling CR under 1
+- Market Settlement Options: Handling CR positions under 1
 - Disable Collateral Bidding
 
 ## Borrowing & Covering
