@@ -56,4 +56,4 @@ Only the undercollateralized debt positions are closed and their collateral is m
 Only the undercollateralized debt positions are closed and their collateral is moved to a limit order on the order book which can be bought. The derived settlement price is NOT capped, which means remaining debt positions could be margin called at a worse price. Able to adjust existing debt positions or create new debt positions.
 
 ## User Issued Collateral Settlement
-When the asset owner, allows settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
+When the asset owner, allows the user issued settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
