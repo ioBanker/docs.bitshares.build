@@ -34,8 +34,8 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 
 #### MSSR
 - Higher MSSR allows faster liquidation and higher penality. Real liquidation penalty is dependend on markets liquidity. 
-- Higher MSSR reduces effective CR for margin calls
-- Market MPA discount reduces the effective MSSR.
+- Higher MSSR reduces the CR range for Market Issued Settlements. 
+- An MPA premium reduces the effective MSSR.
 
 ### Market Response Options
 
