@@ -14,9 +14,9 @@
 - Force Settlement Daly: Time after requested settlement is processed
 - Max. settleable volume each maintance period: Value in percent of the total MPA supply
 
-- Market Fee: Asset Exchange Fee
-- Taker Fee: Percentage of the market fee paid by the taker
-- Market Response Options
+- Market Fee: Asset Exchange Fee, paid by the asset buyer
+- Taker Fee: Percentage of the market fee, paid by the taker
+- Market Response Options: Handling CR under 1
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
