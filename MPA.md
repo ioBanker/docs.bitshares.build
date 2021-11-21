@@ -28,8 +28,8 @@ The BitShares network is capable of minting any MPA, with any collateral, withou
 
 A borrow/short position can be closed by hold the same amount of that particular MPA. When the particular debt is payed back to the network, the corresponding supply is reduced and the collateral is released.
 
-## Force Settlement
-When the asset owner, allows settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
+## Manul Collateral Settlement
+When the asset owner, allows force settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
 
 ## Automated Collateral Settlements
 
