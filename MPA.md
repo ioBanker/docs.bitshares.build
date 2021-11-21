@@ -19,6 +19,7 @@
 - Market Fee: Asset Exchange Fee, paid by the asset buyer
 - Taker Fee: Percentage of the market fee, paid by the taker
 - Market Response Options: Handling CR under 1
+- Disable Collateral Bidding
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
