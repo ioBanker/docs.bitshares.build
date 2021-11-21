@@ -44,7 +44,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Automated Collateral Settlements. 
 
 ### Collateral Settlement Options
-When the *effective CR* (MCR-MSSR) is lower than 1, the second market settlement starts.
+When the *effective CR* (MCR-MSSR) is lower than 1, the second automated settlement starts.
 
 #### Global Settlment (Default)
 All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions when the fund is not empty.
