@@ -40,7 +40,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 
 ### Market Response Options
 
-#### Global Settlment (default)
+#### Global Settlment (Default)
 #### No Settlement (Global Settlement Protection)
 #### Individual Settlement To Fund
 #### Individual Settlement To Order
