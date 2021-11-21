@@ -33,13 +33,16 @@ The margin call will occur, when the CR is lower than the MCR and a bid is equal
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
 
 #### MSSR
-- Higher MSSR allows faster liquidation and higher penality on less liquid markets. 
-- Higher MSSR reduces CR for market Settlement
-- Market MPA discount does reduce the effective MSSR.
+- Higher MSSR allows faster liquidation and higher penality. Real liquidation penalty is dependend on markets liquidity. 
+- Higher MSSR reduces effective CR for margin calls
+- Market MPA discount reduces the effective MSSR.
 
 ### Market Response Options
 
+#### Global Settlment (default)
+#### No Settlement (Global Settlement Protection)
+#### Individual Settlement To Fund
+#### Individual Settlement To Order
+
 ## User Issued Settlement
-When the asset owner, allows a settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
-
-
+When the asset owner, allows settlement, the MPA can be exchanged at Feed Price + FSO + FSS after the settlement time and max. settlement volume. The settlement closes the borrow/short positions with lowest CR and sells the collateral to the asset settler.
