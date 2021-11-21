@@ -1,6 +1,8 @@
 # Market Pegged Asset
 
 ## MPA Input Parameter:
+- Feed Producer
+- Min. amount of Feed Producer
 - Feed Price: The collateral price in the borrowed asset.
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
