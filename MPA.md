@@ -41,7 +41,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Market Issued Settlements. 
 
 ### Market Settlement Options
-When the *effective CR* (MCR-MSSR) is lower than 1, the second market settlement starts.
+When the *effective CR* (MCR-MSSR) is lower than 1, the second settlement starts.
 
 #### Global Settlment (Default)
 All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions when the fund is not empty.
@@ -50,7 +50,7 @@ All debt positions are closed, all or some collateral is moved to a global-settl
 No debt position is closed, and the derived settlement price is dynamically capped at the collateral ratio of the debt position with the least collateral ratio so that all debt positions are able to pay off their debt when being margin called or force-settled. Able to adjust existing debt positions or create new debt positions.
 
 #### Individual Settlement To Fund
-Only the undercollateralized debt positions are closed and their collateral is moved to a fund which can be claimed via force-settlement. The derived settlement price is capped at the fund's collateral ratio so that remaining debt positions will not be margin called or force-settled at a worse price.  Able to adjust existing debt positions or create new debt positions.
+Only the undercollateralized debt positions are closed and their collateral is moved to a fund, which can be claimed via force-settlement. The derived settlement price is capped at the fund's collateral ratio, so that remaining debt positions will not be margin called or force-settled at a worse price.  Able to adjust existing debt positions or create new debt positions.
 
 #### Individual Settlement To Order
 Only the undercollateralized debt positions are closed and their collateral is moved to a limit order on the order book which can be bought. The derived settlement price is NOT capped, which means remaining debt positions could be margin called at a worse price. Able to adjust existing debt positions or create new debt positions.
