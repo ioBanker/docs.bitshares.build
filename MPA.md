@@ -33,7 +33,7 @@ When the asset owner allows force settlement, the MPA can be exchanged at Feed P
 
 ## Automated Collateral Settlements
 
-### Margin Call (first Settlement)
+### Margin Call (First Settlement)
 The margin call sells collateral, to buy shares of the borrowed MPA back, to reduce the amount of debt. 
 The margin call will occur, when the CR is lower than the MCR and a bid is equal or greater than the margin call price.
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
@@ -43,7 +43,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 - An MPA premium reduces the effective MSSR for margin calls.
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Automated Collateral Settlements. 
 
-### Collateral Settlement Options (second Settlement)
+### Response Methods (Second Settlement)
 When the *effective CR* (MCR-MSSR) of the least collaterized position is 1, there are four different methods handling the collateralization breaking point.
 
 #### Global Settlment (Default)
