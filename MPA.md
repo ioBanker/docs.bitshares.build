@@ -8,9 +8,10 @@
 - Core Exchange Rate (CER): Price to exchange MPA from the asset owner fee pool for BTS.
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
+Call Price (CP): = DEBT / COLLATERAL * MCR; The price at which short/borrowed positions are getting margin called.
+
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
 - Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
-- Call Price (CP): = DEBT / COLLATERAL * MCR The price at which short/borrowed positions are getting margin called.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty.
 
 - Force Settlement Offset (FSO): Fee for MPA settlement to the collateral owner.
@@ -18,10 +19,11 @@
 - Force Settlement Daly: Time after requested settlement is processed.
 - Max. settleable volume each maintance period: Value in percent of the total MPA supply.
 
+- Settlement Response Methods
+- Disable Collateral Bidding 
+
 - Market Fee: Asset exchange fee, paid by the asset buyer.
 - Taker Fee: Percentage of the market fee, paid by the taker.
-- Market Response Methods: Handling CR positions at 1.
-- Disable Collateral Bidding 
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
