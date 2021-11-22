@@ -8,9 +8,7 @@
 - Core Exchange Rate (CER): Price to exchange MPA from the asset owner fee pool for BTS.
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
-
-Call Price (CP): = DEBT / COLLATERAL * MCR; The price at which short/borrowed positions are getting margin called.
-
+- Call Price (CP): = DEBT / COLLATERAL * MCR; The price at which short/borrowed positions are getting margin called.
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
 - Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty.
