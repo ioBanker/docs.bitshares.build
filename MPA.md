@@ -5,7 +5,7 @@
 - Min. amount of Feed Producer
 - Feed Price: The collateral price in the borrowed asset.
 - Feed Lifetime
-- Core exchange rate (CER): Price to exchange MPA from asset owner fee pool for BTS
+- Core exchange rate (CER): Price to exchange MPA from the asset owner fee pool for BTS.
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
@@ -13,15 +13,15 @@
 - Call Price (CP): = DEBT / COLLATERAL * MCR The price at which short/borrowed positions are getting margin called.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty.
 
-- Force Settlement Offset (FSO): Fee for MPA settlement to the collateral owner
-- Force Settlement Fee (FSF): Fee for MPA settlement to the asset owner
-- Force Settlement Daly: Time after requested settlement is processed
-- Max. settleable volume each maintance period: Value in percent of the total MPA supply
+- Force Settlement Offset (FSO): Fee for MPA settlement to the collateral owner.
+- Force Settlement Fee (FSF): Fee for MPA settlement to the asset owner.
+- Force Settlement Daly: Time after requested settlement is processed.
+- Max. settleable volume each maintance period: Value in percent of the total MPA supply.
 
-- Market Fee: Asset Exchange Fee, paid by the asset buyer
-- Taker Fee: Percentage of the market fee, paid by the taker
-- Market Settlement Options: Handling CR positions under 1
-- Disable Collateral Bidding
+- Market Fee: Asset Exchange Fee, paid by the asset buyer.
+- Taker Fee: Percentage of the market fee, paid by the taker.
+- Market Settlement Options: Handling CR positions under 1.
+- Disable Collateral Bidding: Prevents 
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
@@ -33,7 +33,7 @@ When the asset owner allows force settlement, the MPA can be exchanged at Feed P
 
 ## Automated Collateral Settlements
 
-### Margin Call
+### Margin Call (first Settlement)
 The margin call sells collateral, to buy shares of the borrowed MPA back, to reduce the amount of debt. 
 The margin call will occur, when the CR is lower than the MCR and a bid is equal or greater than the margin call price.
 The borrower is able to add extra collateral or reduce the debt, to increse his CR and prevent further margin calls. 
@@ -43,8 +43,8 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 - An MPA premium reduces the effective MSSR for margin calls.
 - Higher MSSR reduces the *effective CR range* (MCR-MSSR) for Automated Collateral Settlements. 
 
-### Collateral Settlement Options
-When the *effective CR* (MCR-MSSR) of the least collaterized position is lower than 1, the second automated settlement starts.
+### Collateral Settlement Options (second Settlement)
+When the *effective CR* (MCR-MSSR) of the least collaterized position is 1, there are four different methods handling the collateralization breaking point.
 
 #### Global Settlment (Default)
 All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions when the fund is not empty.
