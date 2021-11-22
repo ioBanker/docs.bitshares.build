@@ -1,11 +1,11 @@
 # Market Pegged Asset (MPA)
 
 ## Input Parameter:
-- Feed Producer
-- Min. amount of Feed Producer
-- Feed Price: The collateral price in the borrowed asset.
-- Feed Lifetime
-- Core exchange rate (CER): Price to exchange MPA from the asset owner fee pool for BTS.
+- Feed producer
+- Min. amount of feed producer
+- Feed price: The collateral price in the borrowed asset.
+- Feed lifetime
+- Core Exchange Rate (CER): Price to exchange MPA from the asset owner fee pool for BTS.
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin calls.
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
@@ -18,10 +18,10 @@
 - Force Settlement Daly: Time after requested settlement is processed.
 - Max. settleable volume each maintance period: Value in percent of the total MPA supply.
 
-- Market Fee: Asset Exchange Fee, paid by the asset buyer.
+- Market Fee: Asset exchange fee, paid by the asset buyer.
 - Taker Fee: Percentage of the market fee, paid by the taker.
 - Market Settlement Options: Handling CR positions under 1.
-- Disable Collateral Bidding: Prevents 
+- Disable Collateral Bidding 
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
