@@ -20,7 +20,7 @@
 
 - Market Fee: Asset exchange fee, paid by the asset buyer.
 - Taker Fee: Percentage of the market fee, paid by the taker.
-- Market Response Methods: Handling CR positions under 1.
+- Market Response Methods: Handling CR positions at 1.
 - Disable Collateral Bidding 
 
 ## Borrowing & Covering
