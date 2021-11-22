@@ -47,7 +47,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 When the *effective CR* (MCR-MSSR) of the least collaterized position is 1, there are four different methods handling the collateralization breaking point.
 
 #### Global Settlment (Default)
-All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions when the fund is not empty.
+All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions, when the fund is not empty.
 
 #### No Settlement (Disable Global Settlement)
 No debt position is closed, and the derived settlement price is dynamically capped at the collateral ratio of the debt position with the least collateral ratio so that all debt positions are able to pay off their debt when being margin called or force-settled. Able to adjust existing debt positions or create new debt positions.
