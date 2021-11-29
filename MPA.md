@@ -21,7 +21,7 @@
 - Disable Collateral Bidding 
 
 - Market Fee: Asset exchange fee, paid by the asset buyer.
-- Taker Fee: Percentage of the market fee, paid by the taker.
+- Taker Fee: Asset exchange fee, paid by the taker.
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
