@@ -22,6 +22,7 @@
 
 - Market Fee: Asset exchange fee, paid by the asset buyer.
 - Taker Fee: Asset exchange fee, paid by the taker.
+- Market fee referral reward
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
