@@ -16,7 +16,7 @@
 - Force Settlement Offset Percent (FSOP): Fee for MPA settlement to the collateral owner.
 - Force Settlement Fee Percent (FSFP): Fee for MPA settlement to the asset owner.
 - Force Settlement Delay Second (FSDS): Time after requested settlement is processed.
-- Max. force settleable volume each maintance period (MFSV): Value in percent of the total MPA supply.
+- Max. Force Settleable Volume (MFSV): Value in percent of the total MPA supply for each maintance period.
 
 - Settlement Response Methods
 - Disable Collateral Bidding 
