@@ -11,11 +11,12 @@
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
 - Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty.
+- Margin Call Fee Ratio (MCFR): Paid by the borrower to asset owner. 
 
-- Force Settlement Offset (FSO): Fee for MPA settlement to the collateral owner.
-- Force Settlement Fee (FSF): Fee for MPA settlement to the asset owner.
-- Force Settlement Delay: Time after requested settlement is processed.
-- Max. settleable volume each maintance period: Value in percent of the total MPA supply.
+- Force Settlement Offset Percent (FSOP): Fee for MPA settlement to the collateral owner.
+- Force Settlement Fee Percent (FSFP): Fee for MPA settlement to the asset owner.
+- Force Settlement Delay Second (FSDS): Time after requested settlement is processed.
+- Max. force settleable volume each maintance period (MFSV): Value in percent of the total MPA supply.
 
 - Settlement Response Methods
 - Disable Collateral Bidding 
