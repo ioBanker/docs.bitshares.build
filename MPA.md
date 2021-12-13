@@ -22,6 +22,7 @@
 - Disable Collateral Bidding 
 
 - Market Fee: Asset exchange fee, paid by the asset buyer.
+- Max. Market Fee
 - Taker Fee: Asset exchange fee, paid by the taker.
 - Market fee referral reward
 
