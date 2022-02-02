@@ -34,6 +34,7 @@ A new UIA needs to be created in the first place, which can be upgraded to a poo
 
 ## Sources:
 - https://news.iobanker.com/2021/04/02/bitshares-blockchain-liquidity-pools-defi-god-mode-is-now-enabled-at-iobanker-dex/
+- https://github.com/bitshares/bitshares-core/releases/tag/5.0.0
 
 ## Index
 
