@@ -24,7 +24,7 @@ Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used 
 Withdrawing funds from the pool, burns the pool token, which reduces the pool token supply. Withdraw fees are shared to the remaining pool token holders.
 
 ### Create
-A new UIA needs to be created in the first place, which can be upgraded to a pool token. By definiton the asset ID A, is smaller, than the asset ID B. After the inital pool deposit by the creator, the invariant `k` is defined and the liquidity pool is live. 
+A new UIA needs to be created in the first place, which can be upgraded to the pool token. The asset ID A is by definiton smaller, than the asset ID B. After the inital pool deposit by the creator, the invariant `k` is defined and the liquidity pool is active. 
 
 ## Interfaces
 - https://dex.iobanker.com/poolmart/liquidity-pools
