@@ -10,9 +10,9 @@ The exchange rate is defined by:
 - pool taker fees, contributed to the pool token holders
 
 ### Deposit
-Both assets are needed in equal amounts at the current pool price. Deposit increases the amount of pool tokens. 
+Both assets are needed in equal amounts at the current pool price. A deposit increases the amount of pool tokens. 
 
-#### Market Pegged Asset
+#### Market Pegged Assets
 Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used to stake a long, neutral or short position.
 
 ##### Example: 1.19.66 - HONEST.BTCBTSMM
@@ -24,7 +24,7 @@ Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used 
 Withdrawing funds from the pool, burns the pool token, which reduces the pool token supply. Withdraw fees are shared to the remaining pool token holders.
 
 ### Create
-
+A new UIA needs to be created in the first place, which can be upgraded to a pool token. By definiton the asset ID A, is smaller, than the asset ID B. After the inital pool deposit by the creator, the `invariant k` is defined and the pool is live. 
 
 ## Interfaces
 - https://dex.iobanker.com/poolmart/liquidity-pools
