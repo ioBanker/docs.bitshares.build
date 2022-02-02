@@ -1,6 +1,5 @@
 # Liquidity Pools technical
 Liquidity Pools are part of the bitshares-core 5.0, which are providing a fully automated and autonomous onchain liquidity.
-
 Always holding an equal amount of value in both assets, at the current pool price
 
 ## Functions
@@ -25,6 +24,7 @@ Withdrawing funds from the pool burns the pool token and reduces the pool token 
 
 ## Interfaces
 - https://dex.iobanker.com/poolmart/liquidity-pools
+- https://app.xbts.io/#/pools
 - https://blocksights.info/#/pools
 - https://github.com/bitshares/PoolTool
 
