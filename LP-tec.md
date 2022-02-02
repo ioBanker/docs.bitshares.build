@@ -7,7 +7,7 @@ Always holding an equal amount of value in both assets, at the current pool pric
 ### Exchange
 The exchange rate is defined by: 
 - constant product model: `k = amount_x * amount_y` 
-- pool taker fees, contributed to the pool token holders
+- pool taker fee, contributed to the pool token holders
 
 ### Deposit
 Both assets are needed in equal amounts at the current pool price. A deposit increases the amount of pool tokens. 
