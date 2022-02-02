@@ -10,9 +10,9 @@ The exchange rate is defined by:
 - pool taker fees, contributed to the pool token holders
 
 ### Deposit
-Both assets are needed in equal amounts at the current pool price. 
+Both assets are needed in equal amounts at the current pool price. Deposit increases the amount of pool tokens. 
 
-#### MPA
+#### Market Pegged Asset
 Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used to stake a long, neutral or short position.
 
 ##### Example: 1.19.66 - HONEST.BTCBTSMM
@@ -21,7 +21,10 @@ Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used 
 - **HONEST.BTC Short - BTS Long:** Use all BTS for borrowing. Sell 50% of your HONEST.BTC for the BTS part.
 
 ### Withdraw
-Withdrawing funds from the pool burns the pool token and reduces the pool token supply. Withdraw fees are shared to the remaining pool token holders.
+Withdrawing funds from the pool, burns the pool token, which reduces the pool token supply. Withdraw fees are shared to the remaining pool token holders.
+
+### Create
+
 
 ## Interfaces
 - https://dex.iobanker.com/poolmart/liquidity-pools
