@@ -1,14 +1,31 @@
 # Liquidity Pools Investment
 
-## How works a Liquidity Pool ?
+## How does a Liquidity Pool work?
 
-Always holding an equal amount of value in both assets, at the current pool price. 
-Adding or removing funds from the pool, does increase or decrease the amount of pool tokens.  
+Providing a trustless smart contract, which always holds an equal amount of both assets. 
+Adding funds to the pool, creates new pool-tokens. Those pool-tokens can later be used to withdraw funds again. 
+The pool-token holder always earns the pool-taker fees and the pool-withdraw fees.
 
-## Deposit
+## How much does a Liquiditity Pool earn?
 
-### Market Pegged Assets
-Liquidity Pools, which use a (Market Pegged Asset)/Collateral pair, can be used to stake a long, neutral or short position.
+The total earning is highly dependent on:
+- Taker fee 
+- Taker volume
+- Withdraw fee
+- Withdraw volume
+- Extra mining bonus by project
+
+## In which Liquidity Pool should I invest?
+
+We can not answer this question here, but important criterias are:
+- Asset quality
+- Pool size
+- Pool activity
+- Mining bonus
+
+##  How can I combine a Liquidity Pool with a Market Pegged Asset (MPA) ?
+
+Liquidity Pools, which use a MPA/Collateral pair, can be used to stake a long, neutral or short position.
 
 ##### Example: 1.19.66 - HONEST.BTCBTSMM
 - **HONEST.BTC Long - BTS Short:** Sell 50% of the BTS for the HONEST.BTC part.
