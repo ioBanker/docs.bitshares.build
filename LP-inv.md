@@ -16,6 +16,10 @@ The total earning is highly dependent on:
 - Withdraw volume
 - Extra payout
 
+## Can I only add one asset to the Liquidity Pool ?
+
+No, both assets are needed for deposit. 
+
 ## In which Liquidity Pool should I invest?
 
 We can not answer this question here, but important criterias are:
