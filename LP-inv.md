@@ -1,4 +1,4 @@
-# Liquidity Pools Investment
+# Liquidity Pool Investment
 
 ## How does a Liquidity Pool work?
 
