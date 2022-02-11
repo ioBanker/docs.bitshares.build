@@ -2,7 +2,7 @@
 
 ## How does a Liquidity Pool work?
 
-Providing a trustless smart contract, which always holds an equal amount of both assets. 
+Providing a trustless smart contract, which always holds an equal value in both assets. 
 
 Adding funds to the pool, creates new pool-tokens. Those pool-tokens can later be used to withdraw funds again. 
 
