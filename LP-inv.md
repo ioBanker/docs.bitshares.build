@@ -8,7 +8,7 @@ Adding funds to the pool, creates new pool-tokens. Those pool-tokens can later b
 
 The pool-token holder earns the pool-taker and pool-withdraw fee.
 
-## How much does a Liquiditity Pool earn?
+## How much does a Liquidity Pool earn?
 
 The total earning is highly dependent on:
 - Taker fee 
