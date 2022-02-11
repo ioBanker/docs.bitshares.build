@@ -14,7 +14,7 @@ The total earning is highly dependent on:
 - Taker volume
 - Withdraw fee
 - Withdraw volume
-- Extra mining bonus by project
+- Extra payout
 
 ## In which Liquidity Pool should I invest?
 
@@ -22,7 +22,7 @@ We can not answer this question here, but important criterias are:
 - Asset quality
 - Pool size
 - Pool activity
-- Mining bonus
+- Extra payout
 
 ##  How can I combine a Liquidity Pool with a Market Pegged Asset (MPA) ?
 
