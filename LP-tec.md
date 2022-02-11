@@ -1,4 +1,4 @@
-# Liquidity Pools Technical
+# Liquidity Pool Technical
 Liquidity Pools are part of the bitshares-core 5.0, which are providing a fully automated and autonomous onchain liquidity.
 Always holding an equal amount of value in both assets, at the current pool price
 
