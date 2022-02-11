@@ -28,6 +28,9 @@ We can not answer this question here, but important criterias are:
 - Pool activity
 - Extra payout
 
+## Where can I use the Liquidity Pools ?
+- [dex.iobanker.com](https://dex.iobanker.com/poolmart/liquidity-pools)
+
 ##  How can I combine a Liquidity Pool with a Market Pegged Asset (MPA) ?
 
 Liquidity Pools, which use a MPA/Collateral pair, can be used to stake a long, neutral or short position.
