@@ -25,9 +25,9 @@ No, both assets are needed for deposit.
 
 We can not answer this question here, but important criterias are:
 - Asset quality
-- Pool size
 - Pool activity
 - Extra payout
+- Pool size
 
 ## Where can I use Liquidity Pools ?
 - [dex.iobanker.com](https://dex.iobanker.com/poolmart/liquidity-pools)
