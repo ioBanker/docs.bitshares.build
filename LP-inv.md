@@ -15,7 +15,7 @@ The total earning is highly dependent on:
 - Taker volume
 - Withdraw fee
 - Withdraw volume
-- Extra payout
+- Extra payout by project
 
 ## Can I only add one asset to the Liquidity Pool ?
 
