@@ -5,6 +5,7 @@
 Providing a trustless smart contract, which always holds an equal amount of both assets. 
 
 Adding funds to the pool, creates new pool-tokens. Those pool-tokens can later be used to withdraw funds again. 
+
 The pool-token holder always earns the pool-taker fees and the pool-withdraw fees.
 
 ## How much does a Liquiditity Pool earn?
