@@ -3,6 +3,7 @@
 ## Input Parameter:
 - Feed producer
 - Min. amount of feed producer
+- Backing asset: Any asset, but only one fixed asset can be used as collateral
 - Feed price: The collateral price in the borrowed asset.
 - Feed lifetime
 - Core Exchange Rate (CER): Price to exchange MPA from the asset owner fee pool for BTS.
