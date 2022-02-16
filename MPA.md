@@ -10,22 +10,23 @@
 - Collateral Ratio (CR) : = DEBT / COLLATERAL
 - Maintenance Collateral Ratio (MCR): CR for margin call.
 - Initial Collateral Ratio (ICR): Minimum CR for updating margin position. 
-- Target Collateral Ratio (TCR): Sell only enough collateral to reach TCR again.
+- Target Collateral Ratio (TCR): Only sell enough collateral to reach TCR again.
 - Maximum Short Squeeze Ratio (MSSR): Max. liquidation penalty.
-- Margin Call Fee Ratio (MCFR): Paid by the borrower to asset owner. 
+- Margin Call Fee Ratio (MCFR): Paid by the borrower to the asset owner. 
 
 - Force Settlement Offset Percent (FSOP): Fee for MPA settlement to the collateral owner.
 - Force Settlement Fee Percent (FSFP): Fee for MPA settlement to the asset owner.
 - Force Settlement Delay Seconds (FSDS): Time after requested settlement is processed.
-- Max. Force Settleable Volume (MFSV): Value in percent of the total MPA supply for each maintance period.
+- Max. Force Settleable Volume (MFSV): Value in percent of the total MPA supply for each maintenance period.
 
-- Settlement Response Methods
-- Disable Collateral Bidding 
+- Settlement Response Methods (explained in extra topic)
+- Disable Collateral Bidding (prevent outbidding on volataile market)
 
 - Market Fee: Asset exchange fee, paid by the asset buyer.
+- Market fee referral reward (excluding taker fee)
 - Max. Market Fee
 - Taker Fee: Asset exchange fee, paid by the taker.
-- Market fee referral reward
+
 
 ## Borrowing & Covering
 The BitShares network is capable of minting any MPA, with any collateral, without any interest rate.
@@ -50,7 +51,7 @@ The borrower is able to add extra collateral or reduce the debt, to increse his 
 ### Response Methods (Second Level Settlement)
 When the *effective CR* (MCR-MSSR) of the least collaterized position is 1, there are four different options handling the collateralization breaking point.
 
-#### Global Settlment (Default)
+#### Global Settlement (Default)
 All debt positions are closed, all or some collateral is moved to a global-settlement fund. Debt asset holders can claim collateral via force-settlement. It is not allowed to create new debt positions, when the fund is not empty.
 
 #### No Settlement (Disable Global Settlement)
