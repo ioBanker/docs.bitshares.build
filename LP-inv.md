@@ -21,6 +21,10 @@ The total earning is highly dependent on:
 
 No, both assets are needed for deposit. 
 
+## How save is investing in a Liquidity Pool ?
+
+As save, as the assets in the pool. When one asset of the pool reaches zero value, the poolen token does the same. 
+
 ## In which Liquidity Pool should I invest?
 
 We can not answer this question here, but important criterias are:
