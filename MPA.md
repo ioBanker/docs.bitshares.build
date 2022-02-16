@@ -66,3 +66,5 @@ Only the undercollateralized debt positions are closed and their collateral is m
 ## Scripts
 - https://github.com/litepresence/Honest-MPA-Price-Feeds
 - https://github.com/bitshares/bitshares-pricefeed
+
+## Projects
