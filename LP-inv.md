@@ -35,6 +35,7 @@ We can not answer this question here, but important criterias are:
 
 ## Where can I use Liquidity Pools ?
 - [dex.iobanker.com](https://dex.iobanker.com/poolmart/liquidity-pools)
+- [app.xbts.io](https://app.xbts.io/#/pools)
 
 ##  How can I combine a Liquidity Pool with a Market Pegged Asset (MPA) ?
 
