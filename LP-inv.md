@@ -11,7 +11,7 @@ The pool-token holder earns the pool-taker and pool-withdraw fee.
 ## How much does a Liquidity Pool earn?
 
 The total earning is highly dependent on:
-- Taker fee 
+- Fixed taker fee 
 - Taker volume
 - Withdraw fee
 - Withdraw volume
